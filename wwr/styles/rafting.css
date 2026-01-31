@@ -70,15 +70,19 @@ h1 {
     color: #fff
 }
 
-.hero article img {
+.hero h1,
+article,
+img {
     float: right;
     width: 125px;
+    --accent2-color: #e9c46a;
 
 }
 
 section,
 h2 {
     border: #264653;
+    --second-color: #f4a261;
 }
 
 .header-grid {
