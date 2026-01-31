@@ -46,6 +46,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -78,4 +79,30 @@ h1 {
 section,
 h2 {
     border: #264653;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+
+}
+
+.nav-flex ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-flex li {
+    flex: 1 1 auto;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    grid-column: center;
 }
